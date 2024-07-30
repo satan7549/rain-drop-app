@@ -1,4 +1,5 @@
 import "./App.css";
+import PropagateEffect from "./components/PropagateEffect";
 import RainEffect from "./components/RainEffect";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
         <h1>Rain Pattern Game</h1>
       </header>
       <main>
-        <RainEffect rows={15} cols={20} />
+        {/* <RainEffect rows={10} cols={15} /> */}
+        <PropagateEffect rows={20} cols={20} />
       </main>
     </div>
   );
